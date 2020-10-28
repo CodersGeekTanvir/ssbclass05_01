@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Header Starts */
+header{
+    padding: 30px 0;
+}
+.header_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{}
+nav{}
+nav ul{
+     display: flex;
+}
+
+nav ul li a{
+    color: #2d3950;
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+}
+nav ul li a:hover{
+    color:#3FA8D5;
+    background-color: #eee8e8;
+    border-radius: 10px;
+}
+.header_horizontal_line{
+   padding: 10px 0;
+}
+.header_hr_line{
+     border: 1px solid #bcd0cf73;
+    width: 1100px;
+    margin: auto;
+}
+
+/* Header Ends */
+
+/* Little Intro Starts */
+.intro_content{
+    text-align: center;
+}
+.intro_content p{
+    padding-top: 70px;
+    padding-bottom: 5px;
+    color: #959ba6;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.intro_content h1{
+    padding-bottom: 25px;
+    color: #2d3950;
+    text-transform: uppercase;
+   
+}
+
+.intro_hr_line{
+      border: 1px solid #bcd0cfa1;
+     width: 150px;
+     margin: auto;
+ }
+/* Little Intro Ends */
+
+/* PROTFOLIO SECTIION START */
+section{
+    margin: 20px 0;
+}
+.section_bgcolor{
+    background-color: #f5f5f5;
+    border-radius: 40px;
+}
+.row01{
+    padding: 70px 0 10px 0;
+}
+.row01_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item_content01{
+    flex-basis: 33.33%;
+    padding: 0 40px;
+}
+.item_content02{
+    flex-basis: 33.33%;
+    padding: 0 40px;
+}
+.item_content03{
+    flex-basis: 33.33%;
+    padding: 0 40px;
+}
+.item_pic{}
+.item_description{}
+.item_description h3{
+    color: #7c8088 ;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.row02{
+    padding: 30px 0 80px;
+}
+.row02_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* PROTFOLIO SECTIION ENDS */
+
+/* FOOTER SECTIION STARTS */
+
+.footer_bgcolor{
+    background-color: #f5f5f5;
+     padding: 30px 40px;
+     border-radius: 20px;
+}
+.footer_item_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_content h4{
+    color: #2d3950; ;
+}
+.footer_socials ul{
+    display: flex;
+}
+.footer_socials ul li{
+    padding-left: 25px;
+}
+
+.footer_socials ul li a{
+    font-size: 25px;
+    color: #2d3950; 
+    transition: all linear 0.3s;
+}
+
+.footer_socials ul li a .fb:hover{
+    color: #3A5794;
+}
+.footer_socials ul li a .twit:hover{
+    color: #1C9CEA;
+}
+
+.footer_socials ul li a .git:hover{
+    color: 	#000000;
+}
+
+.footer_socials ul li a .msg:hover{
+    color: #5BEE57;
+}
+/* FOOTER SECTIION ENDS */
